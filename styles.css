@@ -605,6 +605,21 @@ h1 {
   padding-bottom: 6px;
 }
 
+.archive-year {
+  margin-top: 18px;
+}
+
+.archive-year + .archive-year {
+  margin-top: 30px;
+}
+
+.archive-year h3 {
+  margin: 0 0 12px;
+  color: var(--primary-dark);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
 .news-card-list .news-card {
   display: block;
   padding: 0;
