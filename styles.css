@@ -928,6 +928,92 @@ h1 {
   border-bottom: 1px solid var(--line);
 }
 
+@media (min-width: 1280px) {
+  body {
+    font-size: 17px;
+  }
+
+  .brand strong {
+    font-size: 24px;
+  }
+
+  .brand small {
+    font-size: 13px;
+  }
+
+  .site-nav {
+    font-size: 20px;
+  }
+
+  .eyebrow {
+    font-size: 14px;
+  }
+
+  .lead {
+    max-width: 720px;
+    font-size: 22px;
+  }
+
+  .research-item h3 {
+    font-size: 26px;
+  }
+
+  .research-item p,
+  .resource-card p:not(.resource-label),
+  .access-list p,
+  .contact-box p {
+    font-size: 16px;
+  }
+
+  .program-tags span,
+  .resource-label,
+  .related-publication span,
+  .member-date,
+  .contact-kicker {
+    font-size: 13px;
+  }
+
+  .member-card h3,
+  .publication-list h3 {
+    font-size: 21px;
+  }
+
+  .member-card p,
+  .alumni-list p,
+  .publication-list p,
+  .related-publication p,
+  .news-copy p,
+  .publication-more,
+  .profile-links a {
+    font-size: 15px;
+  }
+
+  .resource-card h3 {
+    font-size: 22px;
+  }
+
+  .resource-actions a,
+  .site-footer {
+    font-size: 14px;
+  }
+
+  .news-list time {
+    font-size: 15px;
+  }
+
+  .archive-year h3 {
+    font-size: 19px;
+  }
+
+  .access-list h2 {
+    font-size: 24px;
+  }
+
+  .pi-hero .lead {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 1180px) {
   .pi-hero {
     grid-template-columns: 1fr;
